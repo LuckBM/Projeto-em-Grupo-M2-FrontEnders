@@ -1,0 +1,153 @@
+/* Configuração fundo */
+body {
+    background-image: linear-gradient(180deg, #5ca9d8, #1A3ECD);
+}
+
+/* Definindo o posionamento da barra de navegação e tamanho dos botões(img) */
+#option {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    margin-top: 2.5em;
+}
+
+#option img {
+    width: 7.5em;
+    height: 7.5em;
+}
+
+#option2 {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    margin-top: 2.5em;
+}
+
+#option2 img {
+    width: 7.5em;
+    height: 7.5em;
+}
+
+#option3 {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    margin-top: 2.5em;
+}
+
+#option3 img {
+    width: 7.5em;
+    height: 7.5em;
+}
+
+#option4 {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    margin-top: 2.5em;
+}
+
+#option4 img {
+    width: 7.5em;
+    height: 7.5em;
+}
+
+#option5 {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    margin-top: 2.5em;
+}
+
+#option5 img {
+    width: 7.5em;
+    height: 7.5em;
+}
+
+#option6 {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    margin-top: 2.5em;
+}
+
+#option6 img {
+    width: 7.5em;
+    height: 7.5em;
+}
+
+/* Configuração do link e comportamento do hover */
+a img {
+    transition: 1s;
+}
+
+a img:hover {
+    opacity: 100%;
+    background-color: #1A3ECD;
+    border-radius: 1em 1em;
+    transform: scale(1.1);
+}
+
+header h1 {
+    width: 100%;
+    font-family: 'Kanit';
+    color: #000000;
+    font-size: 3.5em;
+    text-align: center;
+    text-shadow: 2px 2px #FFFFFF;
+}
+
+/* Personalização do rodapé */
+footer {
+    width: 100%;
+    color: #FFFFFF;
+    font-family: 'Kanit';
+    font-size: 1.3em;
+    text-align: center;
+    box-shadow: 0 5px 5px 1px #FFFFFF;
+}
+
+#endereço {
+    width: 25%;
+    float: left;
+}
+
+#cep {
+    width: 25%;
+    float: left;
+}
+
+#email {
+    width: 25%;
+    float: left;
+}
+
+#instagram {
+    width: 25%;
+    float: left;
+}
+
+/* Responsividade do rodapé */
+@media (min-width:280px) and (max-width:1280px) {
+    #endereço {
+        width: 100%;
+    }
+}
+
+@media (min-width:280px) and (max-width:1280px) {
+    #cep {
+        width: 100%;
+    }
+}
+
+@media (min-width:280px) and (max-width:1280px) {
+    #email {
+        width: 100%;
+    }
+}
+
+@media (min-width:280px) and (max-width:1280px) {
+    #instagram {
+        width: 100%;
+    }
+}
