@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/cadastre-se.css">
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+  <title>Cadastre-se</title>
+</head>
+
+<body>
+  <!-- Barra de navegação com a logo -->
+  <header>
+    <div id="header">
+      <a href="index.html"><img src="img/1.png" alt=""></a> <!-- Início -->
+      <a href="cadastre-se.html"><img src="img/2.png" alt=""></a> <!-- Cadastre-se e Login -->
+      <img src="./img/paula.png" height="200em"> <!-- Logo -->
+      <a href="planos.html"><img src="img/3.png" alt=""></a> <!-- Planos -->
+      <a href=""><img src="img/4.png" alt=""></a> <!-- Contato -->
+    </div>
+  </header>
+
+  <div id="login">
+    <h1>Já se cadastrou ?</h1>
+  </div>
+  <button><a href="">Faça login</a></button>
+  <h1>Se não, cadastre-se agora para receber as melhores promoções e descontos</h1>
+
+  <form id="formulario">
+
+    <div id="infoBasic">
+      <h2>Informações pessoais</h2>
+      <div id="nome">
+        <label>Nome completo:</label>
+        <input type="text" placeholder="Digite aqui seu nome" required="required" name="nome" />
+      </div>
+
+      <div id="genero">
+        <input type="radio" name="sexo" id="masculino" value="m" checked>
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="sexo" id="feminino" value="f">
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="sexo" id="naoinformado">
+        <label for="naoinformado">Outros</label>
+      </div>
+
+      <div id="data">
+        <label>Data de Nascimento</label>
+        <input type="date" id="date">
+      </div>
+
+      <div id="rg">
+        <label for="registroCivil">Registro Civil(RG):</label>
+        <input type="number" placeholder="00.000.000-0" required="required" />
+      </div>
+
+      <div id="cpf">
+        <label for="cPF">CPF:</label>
+        <input type="number" placeholder="000.000.000-00" required="required" />
+      </div>
+
+      <div id="cliente">
+        <label>Cliente</label>
+        <select required="required">
+          <option>Tipo</option>
+          <option>Estudante</option>
+          <option>Empresa</option>
+        </select>
+      </div>
+
+    </div>
+    <div id="infoResidential"></div>
+    <h2>Informações Residenciais</h2>
+
+    <div id="estado">
+      <label for="uf">Estado</label>
+      <select id="uf" required="required">
+        <option value="AC">Selecione seu Estado</option>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+      </select>
+    </div>
+
+    <div id="cep">
+      <label>CEP:</label>
+      <input type="number" placeholder="000000--000" required="required" />
+    </div>
+
+    <div id="bairro">
+      <label>Bairro:</label>
+      <input type="text" placeholder="Nome do bairro" required="required" />
+    </div>
+
+    <div id="rua">
+      <label>Rua:</label>
+      <input type="text" placeholder="Nome da rua" required="required">
+    </div>
+
+    <div id="numero">
+      <label>Número:</label>
+      <input type="number" required="required" />
+    </div>
+
+    <div id="complemento">
+      <label>Complemento:</label>
+      <select>
+        <option>Complemento</option>
+        <option>Casa</option>
+        <option>Apartamento</option>
+        <option>Sobrado</option>
+      </select>
+    </div>
+
+    <div id="infoLogin">
+      <h2>Informações de Login</h2>
+      <div id="email">
+        <label for="email">Email:</label>
+        <input type="email" placeholder="seuusuário@gmail.com" required="required" name="email" />
+      </div>
+
+      <div id="senha">
+        <label for="senha"> Senha: <i>(Máximo 6 caracteres)</i> </label>
+        <input type="password" id="foneid" placeholder="Digite aqui sua senha" name="senha" size="10" maxlength="6"
+          required="required" />
+      </div>
+
+      <div id="senhaconfirm">
+        <label for="senha">Confirme a senha:</label>
+        <input type="password" placeholder="Digite aqui" name="senha" size="10" maxlength="6" required="required" />
+      </div>
+    </div>
+    
+    <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+
+  </form>
+
+  <!-- Rodapé -->
+  <footer>
+    <div id="endereço">
+      <p>Endereço: R. Barcelos Domingos, 58 Campo Grande - RJ</p>
+    </div>
+    <div id="cep">
+      <p>CEP: 23080-020</p>
+    </div>
+    <div id="emails">
+      <p>Email: thefrontenders@.gmail.com</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
