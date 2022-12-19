@@ -2,11 +2,11 @@
 
 # #Grupo:
 
--**Davi Nunes**
--**Fernanda Camargo**
--**Lorrany de Oliveira**
--**Lucas Bento**
--**Thiago Abreu**
+- **Davi Nunes**
+- **Fernanda Camargo**
+- **Lorrany de Oliveira**
+- **Lucas Bento**
+- **Thiago Abreu**
 
 Entre no projeto [aqui](https://luckbm.github.io/Projeto-em-Grupo-M2-FrontEnders/).
 
