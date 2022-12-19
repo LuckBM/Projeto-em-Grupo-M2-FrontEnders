@@ -1,0 +1,135 @@
+/* Persolização do body */
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Posicionamento no centro em dispositivos móvel */
+.navbar {
+  text-align: center;
+}
+
+/* Tamanho do botão de navegação em dispositivos móvel */
+button {
+  width: 50%;
+  margin-top: 1rem;
+}
+
+/* Comportamento do mouse */
+a {
+  text-decoration: none;
+  color: #000000;
+  transition: 0.5s;
+}
+
+a:hover {
+  background-color: #5CA9D8;
+  color: #000000;
+  border-radius: 0.5em 0.5em;
+}
+
+
+/* Posionamento de texto de introdução */
+.pricing-header {
+  max-width: 700px;
+}
+
+/* Tamanho máximo da caixa de opções de plano */
+.container {
+  max-width: 960px;
+}
+
+#container {
+  background-color: #5CA9D8;
+  border-radius: 1em 1em;
+
+}
+
+#container p {
+  font-family: "Kanit";
+  font-size: 1.4em;
+  color: #000000;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Personalização do texto de JS */
+#sobreBasic {
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+#sobreBasicII {
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+#sobreBasicIII {
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+#sobreUltra {
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+#sobreUltraII {
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+#sobreUltraIII {
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+#sobreUltraIV {
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+
+#sobreUltimate {
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+#sobreUltimateII {
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+#sobreUltimateIII {
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+#sobreUltimateIV {
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+#sobreUltimateV {
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+/* Personalização da posição da section */
+section {
+  margin-top: 5rem;
+}
+
+/* Personalização dos textos */
+h3 {
+  font-family: "Kanit";
+  font-size: 1.4em;
+  margin-top: 1rem;
+}
+
+p {
+  font-family: "Kanit";
+  font-size: 1.4em;
+  width: 100%;
+  border-radius: 5px 5px;
+  text-align: center;
+
+}
+
+/* Personalização da barra antes do rodapé */
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
