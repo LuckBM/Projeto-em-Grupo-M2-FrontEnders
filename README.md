@@ -1,5 +1,9 @@
 # Projeto-em-Grupo-M2-FrontEnders
 
+#Grupo:
+Davi Nunes
+Fernanda Camargo
+Lorrane de 
 
 Entre no projeto [aqui](https://luckbm.github.io/Projeto-em-Grupo-M2-FrontEnders/).
 
