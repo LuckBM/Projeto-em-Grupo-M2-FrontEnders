@@ -1,0 +1,135 @@
+/* Persolização do body */
+body {
+  font-family: "Kanit";
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Configuração letras na barra de navegação */
+li {
+  font-size:1.5em;
+  text-align: center;
+}
+
+/* Posicionamento no centro em dispositivos móvel */
+.navbar {
+  text-align:center;
+}
+
+/* Tamanho do botão de navegação em dispositivos móvel */
+button {
+  width: 50%;
+  margin-top:0.5rem;
+  background-color: #5CA9D8;
+  font-size:1.4em;
+}
+
+/* Comportamento do mouse */
+a {
+  text-decoration: none;
+  color: #000000;
+  transition: 0.5s;
+}
+
+a:hover {
+  background-color: #5CA9D8;
+  color: #000000;
+  border-radius: 0.5em 0.5em;
+}
+
+/* Personalização da posição da section */
+section {
+  margin-top: 5rem;
+}
+
+/* Centralizando o texto */
+h1 {
+  text-align: center;
+}
+
+/* Posicionamento das imagens e tamanho das DIVS */
+#equipeI {
+  width: 33.3%;
+  text-align: center;
+  float: left;
+  margin-top:2rem;
+}
+
+#equipeI img {
+  width: 15em;
+  height: 15em;
+  border-radius: 1em 1em;
+}
+
+#equipeII {
+  width: 50%;
+  text-align: center;
+  float: left;
+  margin-top: 3rem;
+}
+
+#equipeII img {
+  width: 15em;
+  height: 15em;
+  border-radius: 1em 1em;
+}
+
+/* Personalização dos textos */
+h3 {
+  font-size:1.4em;
+  margin-top: 1rem;
+}
+
+p {
+  font-size: 1.4em;
+  margin-top: 1em;
+}
+
+#soluction {
+  color: #FFFFFF;
+}
+
+/* Configuração do rodapé */
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  margin-top: 1rem;
+}
+
+p {
+  font-size: 1.4em;
+  width: 100%;
+  border-radius: 5px 5px;
+  text-align: center;
+
+}
+
+#container {
+  background-color: #5CA9D8;
+  border-radius: 1em 1em;
+
+}
+
+#container p {
+  font-size: 1.4em;
+  color: #000000;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsividade do das fotos */
+@media (min-width: 250px) and (max-width:1000px) {
+  #equipeI {
+    width:100%;
+  }
+}
+
+@media (min-width: 250px) and (max-width:1000px) {
+  #equipeII {
+    width:100%;
+  }
+}

@@ -1,0 +1,103 @@
+/* Persolização do body */
+body {
+  font-family: "Kanit";
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Configuração letras na barra de navegação */
+li {
+  font-size:1.5em;
+  text-align: center;
+}
+
+/* Posicionamento no centro em dispositivos móvel */
+.navbar {
+  text-align: center;
+}
+
+input {
+  text-align: center;
+}
+
+button {
+  width: 50%;
+  background-color: #5CA9D8;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  border-radius: 1rem 1rem;
+}
+
+/* Comportamento do mouse */
+a {
+  text-decoration: none;
+  color: #000000;
+  transition: 0.5s;
+}
+
+a:hover {
+  background-color: #5CA9D8;
+  color: #000000;
+  border-radius: 0.5em 0.5em;
+}
+
+img {
+  border-radius: 1rem 1rem;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+p {
+  font-size: 1.4em;
+  width: 100%;
+  border-radius: 5px 5px;
+  text-align: center;
+
+}
+
+/* Configuração do rodapé */
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  margin-top: 1rem;
+}
+
+#container {
+  background-color: #5CA9D8;
+  border-radius: 1em 1em;
+
+}
+
+#container p {
+  font-size: 1.4em;
+  color: #000000;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.h-custom {
+  height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+
+@media (max-width:600px) {
+  section {
+    margin-top:2rem;
+  }
+}
