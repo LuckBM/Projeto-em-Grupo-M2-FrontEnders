@@ -1,0 +1,91 @@
+/* Persolização do body */
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Posicionamento no centro em dispositivos móvel */
+.navbar {
+  text-align:center;
+}
+
+/* Tamanho do botão de navegação em dispositivos móvel */
+button {
+  width: 50%;
+}
+
+/* Comportamento do mouse */
+a {
+  text-decoration: none;
+  color: #000000;
+  transition: 0.5s;
+}
+
+a:hover {
+  background-color: #5CA9D8;
+  color: #000000;
+  border-radius: 0.5em 0.5em;
+  padding: 0.5em 0.5em;
+}
+
+/* Personalização da posição da section */
+section {
+  margin-top: 5rem;
+}
+
+/* Centralizando o texto */
+h1 {
+  text-align: center;
+}
+
+/* Posicionamento das imagens e tamanho das DIVS */
+#equipeI {
+  width: 33.3%;
+  text-align: center;
+  float: left;
+  margin-top:2rem;
+}
+
+#equipeI img {
+  width: 15em;
+  height: 15em;
+  border-radius: 1em 1em;
+}
+
+#equipeII {
+  width: 50%;
+  text-align: center;
+  float: left;
+}
+
+#equipeII img {
+  width: 15em;
+  height: 15em;
+  border-radius: 1em 1em;
+}
+
+/* Personalização dos textos */
+h3 {
+  font-family: "Kanit";
+  font-size:1.4em;
+  margin-top: 1rem;
+}
+
+p {
+  font-family: "Kanit";
+  font-size: 1.4em;
+  margin-top: 1em;
+}
+
+/* Responsividade do das fotos */
+@media (min-width: 250px) and (max-width:1000px) {
+  #equipeI {
+    width:100%;
+  }
+}
+
+@media (min-width: 250px) and (max-width:1000px) {
+  #equipeII {
+    width:100%;
+  }
+}
