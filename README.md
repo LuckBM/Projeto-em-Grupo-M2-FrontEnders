@@ -1,6 +1,6 @@
 # Projeto-em-Grupo-M2-FrontEnders
 
-# #Grupo:
+## Grupo:
 
 - **Davi Nunes**
 - **Fernanda Camargo**
